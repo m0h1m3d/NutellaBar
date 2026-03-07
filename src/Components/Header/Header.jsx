@@ -1,5 +1,6 @@
 import "./header.scss";
-import SideMenu from "./SideMenu";
+import Hero from "./hero/Hero";
+import SideMenu from "./sidemenu/SideMenu";
 
 function Header() {
   function toggleMenu() {
@@ -30,8 +31,14 @@ function Header() {
           <SideMenu toggleMenu={toggleMenu} />
         </nav>
 
-        <div className="hero"></div>
-        <div className="meltingbg"></div>
+        <Hero />
+        <div className="melt">
+          <div className="meltingbg"></div>
+          <div className="meltingbg desk"></div>
+          <div className="meltingbg desk"></div>
+          <div className="meltingbg desk"></div>
+          <div className="meltingbg desk"></div>
+        </div>
       </header>
     </>
   );
