@@ -1,3 +1,4 @@
+import MeltDiv from "../MeltDiv/MeltDiv";
 import "./header.scss";
 import Hero from "./hero/Hero";
 import SideMenu from "./sidemenu/SideMenu";
@@ -32,13 +33,7 @@ function Header() {
         </nav>
 
         <Hero />
-        <div className="melt">
-          <div className="meltingbg"></div>
-          <div className="meltingbg desk"></div>
-          <div className="meltingbg desk"></div>
-          <div className="meltingbg desk"></div>
-          <div className="meltingbg desk"></div>
-        </div>
+        <MeltDiv color={'chocolate'} />
       </header>
     </>
   );
