@@ -1,0 +1,43 @@
+.card{
+    height: 40vh;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    font-size: 0.8rem;
+    padding: 20px;
+    border-radius: 20px;
+    font-style: italic;
+
+    img{
+        border-radius: 20% 39% 20% 39%;
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+    }
+}
+
+.col{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    h2{
+        text-align: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card{
+        height: 30vh;
+        width: 80%;
+
+        img{
+            height: 50px;
+            width: 50px;
+        }
+    }
+
+}
