@@ -3,7 +3,7 @@ import "./featured.scss";
 function Featured() {
   return (
     <>
-      <div className="about">
+      <div className="about" id="menu">
         <div className="featured">
           <h1 className="featured-heading">Featured Flavors</h1>
           <p>

@@ -11,9 +11,10 @@ ul {
   right: 0;
   transform: translateX(100%);
   transition: all 0.3s;
-  //   background-color: #1f1513;
-  // background-color: #5a3620;
+    // background-color: #1f1513;
+  background-color: #5a3620;
   opacity: 0.9;
+  z-index: 999;
 }
 
 button {

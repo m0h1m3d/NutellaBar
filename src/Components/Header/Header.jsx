@@ -20,7 +20,7 @@ function Header() {
   return (
     <>
       <div className="overlay" onClick={() => toggleMenu()}></div>
-      <header>
+      <header id="home">
         <nav className="navbar">
           <span className="logo">
             <img src={"/logo.png"} alt="logo" />
@@ -33,8 +33,8 @@ function Header() {
         </nav>
 
         <Hero />
-        <MeltDiv color={'chocolate'} />
       </header>
+        <MeltDiv color={'chocolate'} />
     </>
   );
 }

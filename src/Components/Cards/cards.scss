@@ -1,10 +1,10 @@
 .cards-container{
+    // background-color: red;
     height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px 0 ;
-    margin-top:25%;
+    padding: 110px 0 ;
     gap: 50px;
     h1{
         color: rgb(66, 65, 65);
@@ -21,22 +21,63 @@
     color: black;
 }
 
+.visit{
+    height: auto;
+    width: 150%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(66, 65, 65);
+    img{
+        height:300px;
+        width: 250px;
+        border-radius: 10px;
+    }
+
+    .disc-visit{
+        display: flex;
+        width: 70%;
+        padding: 30px;
+        text-align: center;
+        flex-direction: column;
+        
+        p{
+            font-size: 0.9rem;
+            font-style: italic;
+        }
+    }
+}
+
 
 @media (min-width: 1200px) {
     .cards-container{
-        height: 90vh;
-        gap: 0px;
-        margin-top: 5%;
+        height: auto;
+        // margin-top: 5%;
         h1{
             font-size: 3rem;
         }
     }
 
     .cards{
-        padding: 20px;
-        height: 100vh;
+        padding: 10px;
         flex-direction: row;
         justify-content: space-evenly;
+    }
+
+    .visit{
+        height: 100%;
+        width: 80%;
+        flex-direction: row;
+        justify-content: space-evenly;
+        img{
+            height: 100%;
+            width: 400px;
+        }
+        .disc-visit{
+            gap: 50px;
+            width: 50%;
+        }
     }
 
 }

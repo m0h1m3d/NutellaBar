@@ -1,7 +1,7 @@
 import "./App.css";
 import Featured from "./Components/Featured/Featured";
 import Cards from "./Components/Cards/Cards";
-import Footer from "./Components/Footer/Footer";
+import Follow from "./Components/Follow/Follow";
 import Header from "./Components/Header/Header";
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <Header />
       <Featured />
       <Cards />
-      <Footer/>
+      <Follow/>
     </>
   );
 }

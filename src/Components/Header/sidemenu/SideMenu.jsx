@@ -18,10 +18,10 @@ function SideMenu({ toggleMenu }) {
             <a href="#home">Home</a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
           </li>
           <li>
-            <a href="#menu">Menu</a>
+            <a href="#about">About</a>
           </li>
           <li>
             <a href="#news">News</a>
