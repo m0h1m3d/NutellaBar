@@ -71,10 +71,7 @@ function Cards() {
             <div className="disc-visit">
               <h1>Best Ice Cream Shop In Your Town!</h1>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi
-                dignissimos delectus a explicabo labore, architecto
-                exercitationem esse dolorum, fuga facere dicta totam quisquam
-                perferendis laborum. Quaerat dolor tempore laborum ut?
+                We proudly craft our signature ice cream in small batches every morning, combining premium local ingredients with a whole lot of love
               </p>
             </div>
         </div>
