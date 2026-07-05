@@ -28,13 +28,13 @@ header img {
   border-radius: 50%;
 }
 
-// .meltingbg {
+/* // .meltingbg {
 //   height: 20%;
 //   background: url("/meltbg.png");
 //   background-size: cover;
 //   background-position: center;
 //   width: 100%;
-// }
+// } */
 
 .overlay {
   position: absolute;
@@ -48,7 +48,7 @@ header img {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-// .melt {
+/* // .melt {
 //   display: flex;
 //   width: 100%;
 //   height: 80%;
@@ -57,7 +57,7 @@ header img {
 
 // .desk {
 //   display: none;
-// }
+// } */
 
 @media (min-width: 1200px) {
   header {
@@ -68,7 +68,7 @@ header img {
     justify-content: space-around;
   }
 
-  // .meltingbg {
+  /* // .meltingbg {
   //   width: 25%;
   // }
 
@@ -79,7 +79,7 @@ header img {
   //   display: flex;
   //   height: 20.9%;
   //   width: 25%;
-  // }
+  // } */
   
   .overlay {
     display: none;

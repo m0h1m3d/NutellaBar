@@ -1,5 +1,5 @@
 import MeltDiv from "../MeltDiv/MeltDiv";
-import "./featured.scss";
+import "./featured.css";
 function Featured() {
   return (
     <>

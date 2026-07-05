@@ -1,4 +1,4 @@
-import "./meltdiv.scss";
+import "./meltdiv.css";
 function MeltDiv({ color }) {
   const pic = `/melt${color}.png` ;
   return (

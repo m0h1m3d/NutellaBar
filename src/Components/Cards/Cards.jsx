@@ -1,6 +1,6 @@
 import MeltDiv from "../MeltDiv/MeltDiv";
 import Card from "./Card";
-import "./cards.scss";
+import "./cards.css";
 
 function Cards() {
   const leaf = (

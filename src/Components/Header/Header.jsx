@@ -1,5 +1,5 @@
 import MeltDiv from "../MeltDiv/MeltDiv";
-import "./header.scss";
+import "./header.css";
 import Hero from "./hero/Hero";
 import SideMenu from "./sidemenu/SideMenu";
 

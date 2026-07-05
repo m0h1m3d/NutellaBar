@@ -1,4 +1,4 @@
-import "./card.scss";
+import "./card.css";
 function Card({icon, title, description, bg}) {
     return (
         <div className="card" style={{ backgroundColor: bg }}>

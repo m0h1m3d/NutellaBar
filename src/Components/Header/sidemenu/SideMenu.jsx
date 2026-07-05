@@ -1,6 +1,6 @@
 import menuSvg from "../../../assets/menu.svg";
 import closeSvg from "../../../assets/close.svg";
-import "./sidemenu.scss";
+import "./sidemenu.css";
 
 function SideMenu({ toggleMenu }) {
   return (

@@ -1,4 +1,4 @@
-import "./follow.scss";
+import "./follow.css";
 function Footer() {
   return (
     <div className="follow" id="news">
