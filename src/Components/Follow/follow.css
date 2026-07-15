@@ -30,8 +30,23 @@
     border-radius: 20px;
     height: 400px;
     width: 300px;
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  animation: morph 5s ease-in-out infinite alternate;
+}
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  50% {
+    /* Change the percentage coordinates over time */
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 6rem;
+  }
+  100% {
+    border-radius: 50% 60% 30% 60% / 60% 40% 60% 30%;
   }
 }
+  }
+
 
 .links a img {
   border-radius: 10px;

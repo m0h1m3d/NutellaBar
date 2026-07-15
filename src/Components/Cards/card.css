@@ -1,57 +1,55 @@
-.card{
-    height: 40vh;
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+.card {
+  height: 40vh;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  background-color: white;
+  font-size: 0.8rem;
+  padding: 20px;
+  border-radius: 20px;
+  font-style: italic;
+}
+.card img,
+.visit img {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  animation: morph 5s ease-in-out infinite alternate;
+}
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  50% {
+    /* Change the percentage coordinates over time */
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 6rem;
+  }
+  100% {
+    border-radius: 50% 60% 30% 60% / 60% 40% 60% 30%;
+  }
+}
+
+.col {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  h2 {
     text-align: center;
-    background-color: white;
-    font-size: 0.8rem;
-    padding: 20px;
-    border-radius: 20px;
-    font-style: italic;
-
-}
-.card img, .visit img{
-    width: 100px;
-    height: 100px;
-    padding: 10px;
-
-    animation: border-r infinite 1s ease-in-out forwards;
-}
-@keyframes border-r{
-    0%{
-    border-radius: 40% 40% 40% 40%;
-    }
-    50%{
-                border-radius: 20% 70% 30% 59%;
-
-    }
-    100%{
-                border-radius: 40% 40% 40% 40%;
-
-    }
-}
-
-.col{
-    height: auto;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    h2{
-        text-align: center;
-    }
+  }
 }
 
 @media (min-width: 1200px) {
-    .card{
-        height: 20%;
+  .card {
+    height: 20%;
 
-        img{
-            height: 40px;
-            width: 40px;
-        }
+    img {
+      height: 40px;
+      width: 40px;
     }
-
+  }
 }
