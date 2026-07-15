@@ -60,8 +60,21 @@
     height: 300px;
     width: 100%;
     border-radius: 20px;
+    animation: icepic 3s ease-in-out infinite;
+  }
+
+  @keyframes icepic {
+    0% {
+      transform: rotate(5deg);
+    }
+    50% {
+      transform: rotate(-5deg);
+    }
+    100% {
+      transform: rotate(5deg);
+    }
 }
- .item-1 img{
+ /* .item-1 img{
     transform: rotate(-5deg);
  }
 
@@ -70,7 +83,7 @@
  }
   .item-3 img{
     transform: rotate(-5deg);
- }
+ } */
 
 
  @media (min-width: 1200px) {

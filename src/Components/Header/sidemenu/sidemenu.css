@@ -51,8 +51,7 @@ button {
 
 .list li a {
       color: #fff;
-      text-decoration: none;
-}
+      text-decoration: none;}
 
 .list li a:hover {
       color: #ec3414;
