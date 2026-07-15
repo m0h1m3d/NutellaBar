@@ -18,7 +18,7 @@ function SideMenu({ toggleMenu }) {
             <a href="#home">Home</a>
           </li>
           <li>
-            <a href="#menu">Menu</a>
+            <a href="#menu">Flavors</a>
           </li>
           <li>
             <a href="#about">About</a>

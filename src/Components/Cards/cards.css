@@ -23,7 +23,7 @@
 
 .visit{
     height: auto;
-    width: 150%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,7 +37,7 @@
 
     .disc-visit{
         display: flex;
-        width: 70%;
+        width: 100%;
         padding: 30px;
         text-align: center;
         flex-direction: column;

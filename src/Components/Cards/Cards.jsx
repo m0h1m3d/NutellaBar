@@ -47,6 +47,12 @@ function Cards() {
             description="Sourcing only certified organic berries, vanilla beans, and cocoa to ensure pure, unadulterated flavor."
             bg="#fff0f1"
           />
+            <Card
+              icon={star}
+              title="Seasonal Innovation"
+              description="New rotating flavors inspired by the harvest calendar and global culinary trends."
+              bg="#f7e6c5"
+            />
           <Card
             icon={arm}
             title="Small Batch"
@@ -54,15 +60,9 @@ function Cards() {
             bg="#e4f6eb"
           />
           <Card
-            icon={star}
-            title="Seasonal Innovation"
-            description="New rotating flavors inspired by the harvest calendar and global culinary trends."
-            bg="#f7e6c5"
-          />
-          <Card
             icon={heart}
             title="All Natural"
-            description="Zero artificial colors or preservatives."
+            description="Zero artificial colors or preservatives, Pure Organic taste"
             bg="#fff0f1"
           />
           </div>
