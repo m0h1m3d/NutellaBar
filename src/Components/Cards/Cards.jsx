@@ -35,7 +35,6 @@ function Cards() {
       style={{ backgroundColor: "#ff85a2" }}
     />
   );
-
   return (
     <>
       <div className="cards-container" id="about">
@@ -46,34 +45,40 @@ function Cards() {
             title="Organic Ingredients"
             description="Sourcing only certified organic berries, vanilla beans, and cocoa to ensure pure, unadulterated flavor."
             bg="#fff0f1"
+            className="card-leaf"
           />
-            <Card
-              icon={star}
-              title="Seasonal Innovation"
-              description="New rotating flavors inspired by the harvest calendar and global culinary trends."
-              bg="#f7e6c5"
-            />
+          <Card
+            icon={star}
+            title="Seasonal Innovation"
+            description="New rotating flavors inspired by the harvest calendar and global culinary trends."
+            bg="#f7e6c5"
+            className="card-star"
+          />
           <Card
             icon={arm}
             title="Small Batch"
             description="Churned in five-gallon buckets to maintain the perfect density and creamy texture in every single scoop."
             bg="#e4f6eb"
+            className="card-arm"
           />
           <Card
             icon={heart}
             title="All Natural"
             description="Zero artificial colors or preservatives, Pure Organic taste"
             bg="#fff0f1"
+            className="card-heart"
           />
+        </div>
+        <div className="visit">
+          <img src="/follow.jpg" alt="" />
+          <div className="disc-visit">
+            <h1>Best Ice Cream Shop In Your Town!</h1>
+            <p>
+              We proudly craft our signature ice cream in small batches every
+              morning, combining premium local ingredients with a whole lot of
+              love
+            </p>
           </div>
-          <div className="visit">
-            <img src="/follow.jpg" alt="" />
-            <div className="disc-visit">
-              <h1>Best Ice Cream Shop In Your Town!</h1>
-              <p>
-                We proudly craft our signature ice cream in small batches every morning, combining premium local ingredients with a whole lot of love
-              </p>
-            </div>
         </div>
       </div>
       <MeltDiv color={"white"} />
