@@ -4,8 +4,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 110px 0 ;
+    padding-top: 100px;
     gap: 50px;
+    background-color: white;
 }
 .cards-container h1{
     color: rgb(66, 65, 65);

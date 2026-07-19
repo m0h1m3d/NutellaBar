@@ -3,9 +3,11 @@ import './hero.css';
 function Hero() {
   return <div className="hero">
     <div className="hero-desc">
-    <h1>Welcome to <span className="red">N</span>utella Bar</h1>
+    <h1>Welcome to <span className="red">N</span>utella Bar
+    </h1>
+
     <p>Flavors Worth Melting For, Where Every Scoop Tells A Sweet Story!</p>
-    <button>See More</button>
+    <button><a href="#menu">See More</a></button>
     </div>
     <div className="icepic"></div>
   </div>;
